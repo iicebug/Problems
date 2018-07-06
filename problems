@@ -1,0 +1,8 @@
+*****上传本地代码到GitHub的步骤*******
+    cd 代码根目录
+    git init  (根目录创建.git文件)
+    git add . (.代表目录下所有文件，可以指定某个特定文件名)
+    git commit -m “注释”
+    git remote add origin https://github.com/XXX/XXX  （关联某个仓库，预先创建好）
+    git pull --allow-unrelated-histories origin master (指定参数，创建README.md)
+    git push origin master  （上传文件）
